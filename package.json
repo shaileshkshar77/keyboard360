@@ -24,6 +24,7 @@
     "babel-preset-react-native": "^1.9.1",
     "prettier": "^1.14.2",
     "react-devtools": "^2.5.2",
+    "xtend": "4.0.2",
     "react-test-renderer": "16.0.0",
     "xopen": "1.0.0"
   },
