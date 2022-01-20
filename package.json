@@ -6,7 +6,9 @@
   },
   "private": true,
   "scripts": {
-    "start": "node client.js"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "bundle": "node node_modules/react-360/scripts/bundle.js",
+    "devtools": "react-devtools"
   },
   "dependencies": {
     "prop-types": "^15.6.2",
