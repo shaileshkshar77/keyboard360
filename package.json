@@ -1,15 +1,10 @@
 {
   "name": "Keyboard360",
   "version": "0.0.1",
-  "author": {
-    "name": "Daniel Büchele",
-    "email": "daniel@buechele.cc"
+  "engines": {
+    "npm": "8.3.0"
   },
   "private": true,
-  "license": {
-    "type": "MIT",
-    "url": "https://raw.githubusercontent.com/danielbuechele/react-360-keyboard/master/LICENSE"
-  },
   "scripts": {
     "start": "node -e \"console.log('open browser at http://localhost:8081/index.html\\n\\n');\" && node node_modules/react-native/local-cli/cli.js start",
     "bundle": "node node_modules/react-360/scripts/bundle.js",
